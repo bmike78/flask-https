@@ -20,6 +20,7 @@ Use yum and pip to get the following prerequisites:
 
 Create your key and cert:
 ```
+[root@flask flask-https]# cd /var/www/flask-https
 [root@flask flask-https]# openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
 Generating a 2048 bit RSA private key
 .....................................................................+++
